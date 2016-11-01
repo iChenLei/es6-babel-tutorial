@@ -11,3 +11,7 @@ var person = {
 
 module.exports = {getItem,setItem,clear};
 
+Object.is('foo','foo');
+
+Object.assign(Object.prototype,{});
+
